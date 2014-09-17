@@ -1,0 +1,3 @@
+pngInfo info;
+
+GLuint id = pngBind("xxx.png", PNG_NOMIPMAP, PNG_SOLID, &info, GL_CLAMP, GL_NEAREST, GL_NEAREST);
